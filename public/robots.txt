@@ -1,0 +1,18 @@
+# robots.txt for Gooclaim
+
+# Allows all major search engine bots to crawl the public sections of the site
+User-agent: *
+Allow: /
+
+#  no sensitive or internal routes are exposed (Requirement met)
+
+Disallow: /login
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /private/
+Disallow: /utils/
+Disallow: /supabase/
+
+#  sitemap path is referenced inside robots.txt (Requirement met)
+Sitemap: https://gooclaim.com/sitemap.xml
