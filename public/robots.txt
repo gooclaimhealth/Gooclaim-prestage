@@ -1,5 +1,6 @@
 # robots.txt for Gooclaim
 
+
 # Allows all major search engine bots to crawl the public sections of the site
 User-agent: *
 Allow: /
